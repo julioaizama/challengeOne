@@ -1,0 +1,132 @@
+.titulo {
+    position: absolute;
+    left: 180px;
+    top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    line-height: 150%;
+}
+
+.sub {
+    position: absolute;
+    left: 80px;
+    top: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    line-height: 150%;    
+}
+
+strong{
+    color: darkslategrey;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+main{
+    display: flex;
+    width: 30%;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    margin-top: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Encriptar{
+    background-color: darkslategrey;
+    color:white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.Encriptar:hover{
+    transform: scale(1.2)
+}
+
+.Desencriptar:hover{
+    transform: scale(1.2)
+}
+
+.Desencriptar{
+    background-color: darkslategrey;
+    color: white;
+    margin-left: 30px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 90px;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.copiar{
+    background-color:darkslategrey;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 180px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    transform: scale(1.2)
+}
+
+@media screen and (max-width:480px) {
+    .suv{
+        position: relative;
+        left: 30px;
+    }
+    main{
+        width: auto;
+        display: inline-block;
+    }
+
+    .input-texto {
+        padding: 30px;
+        display: inline-block;
+        width: 80%;
+        margin-right: 5px;
+    }
+
+    .mensaje {
+        display: inline-block;
+        position: absolute;
+        margin-left: auto;
+    }
+
+    .copiar{
+        margin-top: 390px;
+        margin-left: 100px;
+    }
+} 
